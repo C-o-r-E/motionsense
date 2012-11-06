@@ -1,0 +1,215 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04CB683A1648B1D30093F58C /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 04CB68391648B1D30093F58C /* main.c */; };
+		04CB683C1648B1D30093F58C /* motionsense.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 04CB683B1648B1D30093F58C /* motionsense.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		04CB68331648B1D30093F58C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				04CB683C1648B1D30093F58C /* motionsense.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		04CB68351648B1D30093F58C /* motionsense */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = motionsense; sourceTree = BUILT_PRODUCTS_DIR; };
+		04CB68391648B1D30093F58C /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		04CB683B1648B1D30093F58C /* motionsense.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = motionsense.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04CB68321648B1D30093F58C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04CB682A1648B1D30093F58C = {
+			isa = PBXGroup;
+			children = (
+				04CB68381648B1D30093F58C /* motionsense */,
+				04CB68361648B1D30093F58C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04CB68361648B1D30093F58C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04CB68351648B1D30093F58C /* motionsense */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04CB68381648B1D30093F58C /* motionsense */ = {
+			isa = PBXGroup;
+			children = (
+				04CB68391648B1D30093F58C /* main.c */,
+				04CB683B1648B1D30093F58C /* motionsense.1 */,
+			);
+			path = motionsense;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04CB68341648B1D30093F58C /* motionsense */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04CB683F1648B1D30093F58C /* Build configuration list for PBXNativeTarget "motionsense" */;
+			buildPhases = (
+				04CB68311648B1D30093F58C /* Sources */,
+				04CB68321648B1D30093F58C /* Frameworks */,
+				04CB68331648B1D30093F58C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = motionsense;
+			productName = motionsense;
+			productReference = 04CB68351648B1D30093F58C /* motionsense */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04CB682C1648B1D30093F58C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Awake Coding";
+			};
+			buildConfigurationList = 04CB682F1648B1D30093F58C /* Build configuration list for PBXProject "motionsense" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 04CB682A1648B1D30093F58C;
+			productRefGroup = 04CB68361648B1D30093F58C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04CB68341648B1D30093F58C /* motionsense */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04CB68311648B1D30093F58C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04CB683A1648B1D30093F58C /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		04CB683D1648B1D30093F58C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		04CB683E1648B1D30093F58C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		04CB68401648B1D30093F58C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04CB68411648B1D30093F58C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04CB682F1648B1D30093F58C /* Build configuration list for PBXProject "motionsense" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04CB683D1648B1D30093F58C /* Debug */,
+				04CB683E1648B1D30093F58C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04CB683F1648B1D30093F58C /* Build configuration list for PBXNativeTarget "motionsense" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04CB68401648B1D30093F58C /* Debug */,
+				04CB68411648B1D30093F58C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04CB682C1648B1D30093F58C /* Project object */;
+}
