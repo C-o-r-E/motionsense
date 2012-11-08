@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		04CB683A1648B1D30093F58C /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 04CB68391648B1D30093F58C /* main.c */; };
 		04CB683C1648B1D30093F58C /* motionsense.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 04CB683B1648B1D30093F58C /* motionsense.1 */; };
+		04CB68451648B3F50093F58C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04CB68441648B3F50093F58C /* CoreGraphics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		04CB68351648B1D30093F58C /* motionsense */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = motionsense; sourceTree = BUILT_PRODUCTS_DIR; };
 		04CB68391648B1D30093F58C /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		04CB683B1648B1D30093F58C /* motionsense.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = motionsense.1; sourceTree = "<group>"; };
+		04CB68421648B39E0093F58C /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		04CB68441648B3F50093F58C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04CB68451648B3F50093F58C /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +48,8 @@
 		04CB682A1648B1D30093F58C = {
 			isa = PBXGroup;
 			children = (
+				04CB68441648B3F50093F58C /* CoreGraphics.framework */,
+				04CB68421648B39E0093F58C /* CoreVideo.framework */,
 				04CB68381648B1D30093F58C /* motionsense */,
 				04CB68361648B1D30093F58C /* Products */,
 			);
